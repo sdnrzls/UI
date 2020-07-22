@@ -4,6 +4,16 @@
 	<meta charset="utf-8">
 	<title>HTML5 레이아웃</title>
 	<style>
+		body{
+			font-family: "맑은 고딕","고딕","굴림";
+		}
+		.multi{
+			-webkit-column-count: 120px;
+			-moz-column-count: 120px;
+			column-count: 3;/*단의개수를 먼저 정해놓고 화면 분할 화면이 커질수록 단의 너비가 넓어진다*/
+			column-gap: 20px;
+			column-rule: 2px dotted yellow;
+		}
 	</style>
 </head>
 <body>

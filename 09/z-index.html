@@ -2,7 +2,7 @@
 <html lang="ko">
 	<head>
 		<meta charset="utf-8">
-		<title>z-index 속성</title>
+		<title>z-index 속성</title> 
 		<style>
 			div#wrapper {
 				position: relative;
@@ -17,17 +17,21 @@
 			#b1 {				
 				left:50px;
 				top:50px;
-				background:#ff0000;		
+				background:#ff0000;
+				z-index: 1;	/*요소 쌓는 순서 정하기*/
 			}
 			#b2 {				
 				left:110px;
 				top:70px;
 				background:#ffd800;
+				z-index: 3; /*z-index 값이 크면 값이 작은 요소보다 위에 쌓인다*/
+							/*z-index 값을 명시하지 않으면 1부터 시작해서 1씩 커진다*/
 			}
 			#b3 {
 				left:70px;
 				top:110px;
 				background:#0094ff;		
+				z-index: 1;
 			}
 		</style>
 	</head>
