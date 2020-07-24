@@ -6,7 +6,7 @@ body {
 .container {
 	position:absolute;
 	width: 960px;
-	margin : 0 auto;
+	margin : 0 auto; /*가운데 정렬*/
 	background-color:#fff;
 	border:1px solid #E7E7E7
 }
